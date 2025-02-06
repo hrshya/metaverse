@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family: 'Neue-Bold';
+      font-style: normal;
+      font-display: swap;
+      src: url(assets/fonts/Neue-base/BaseNeue-Bold.ttf) format('truetype');
+    }
+    @font-face {
+      font-family: 'Neue-ExtraBold';
+      font-style: normal;
+      font-display: swap;
+      src: url(assets/fonts/Neue-base/BaseNeue-ExtraBold.ttf) format('truetype');
+    }
+    @font-face {
+      font-family: 'Neue-Super';
+      font-style: normal;
+      font-display: swap;
+      src: url(assets/fonts/Neue-base/BaseNeue-SuperExpBlackObliq.ttf) format('truetype');
+    }
+    @font-face {
+      font-family: 'Syne-Regular';
+      font-style: normal;
+      font-display: swap;
+      src: url(assets/fonts/Syne/Syne-Regular.ttf) format('truetype');
+    }
+    @font-face {
+      font-family: 'Syne-Medium';
+      font-style: normal;
+      font-display: swap;
+      src: url(assets/fonts/Syne/Syne-Mono.ttf) format('truetype');
+    }
+    @font-face {
+      font-family: 'Syne-Bold';
+      font-style: normal;
+      font-display: swap;
+      src: url(assets/fonts/Syne/Syne-Bold.ttf) format('truetype');
+    }
+    @font-face {
+      font-family: 'Syne-ExtraBold';
+      font-style: normal;
+      font-display: swap;
+      src: url(assets/fonts/Syne/Syne-Extra.ttf) format('truetype');
+    }
+}
