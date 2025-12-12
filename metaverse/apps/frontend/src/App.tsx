@@ -4,6 +4,7 @@ import { Signin, Signup } from "./pages/AuthPages";
 import { Dashboard } from "./pages/Dashboard";
 import { DialogProvider } from "./contexts/DialogContext";
 import TestPage from "./pages/TestPage";
+import Game from "./pages/Game";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="/signup" element={ <Signup /> } />
         <Route path="/app" element={  <DialogProvider> <Dashboard /> </DialogProvider> } />
         <Route path="/remote" element={ <TestPage /> } />
+        {/* <Route path="/" element= { <Game /> } /> */}
         <Route path="*" element={ <h1>404 Not Found</h1> } />
       </Routes>
     </BrowserRouter>
