@@ -16,7 +16,7 @@ function App() {
         <Route path="/signup" element={ <Signup /> } />
         <Route path="/app" element={  <DialogProvider> <Dashboard /> </DialogProvider> } />
         <Route path="/remote" element={ <TestPage /> } />
-        {/* <Route path="/" element= { <Game /> } /> */}
+        <Route path="/game" element= { <Game /> } />
         <Route path="*" element={ <h1>404 Not Found</h1> } />
       </Routes>
     </BrowserRouter>

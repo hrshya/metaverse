@@ -32,19 +32,18 @@ class MainScene extends Phaser.Scene {
     this.cameras.main.setRoundPixels(true);
     
     if(tileset) {
-        const oceanLayer = map.createLayer("Ocean", tileset, 0, 0);
-        const islandLayer = map.createLayer("Island", tileset, 0, 0);
-        const treesLayer = map.createLayer("Trees", tileset, 0, 0);
-        const trees2Layer = map.createLayer("Trees 2", tileset, 0, 0);
-        const trees3Layer = map.createLayer("Trees 3", tileset, 0, 0);
-        const plateauLayer = map.createLayer("Plateau", tileset, 0, 0);
-        const flowerLayer = map.createLayer("Flowers and Grass", tileset, 0, 0);
-        const htreesLayer = map.createLayer("Objects/House Trees", tileset, 0, 0);
-        const houseLayer = map.createLayer("Objects/House", tileset, 0, 0);
-        const dockLayer = map.createLayer("Objects/Dock", tileset, 0, 0);
-        const fenceLayer = map.createLayer("Objects/Fence", tileset, 0, 0);
-        const bushesLayer = map.createLayer("Objects/Bushes", tileset, 0, 0);
-        // const aboveLayer = map.createLayer("Above Player", tileset, 0, 0);
+        map.createLayer("Ocean", tileset, 0, 0);
+        map.createLayer("Island", tileset, 0, 0);
+        map.createLayer("Trees", tileset, 0, 0);
+        map.createLayer("Trees 2", tileset, 0, 0);
+        map.createLayer("Trees 3", tileset, 0, 0);
+        map.createLayer("Plateau", tileset, 0, 0);
+        map.createLayer("Flowers and Grass", tileset, 0, 0);
+        map.createLayer("Objects/House Trees", tileset, 0, 0);
+        map.createLayer("Objects/House", tileset, 0, 0);
+        map.createLayer("Objects/Dock", tileset, 0, 0);
+        map.createLayer("Objects/Fence", tileset, 0, 0);
+        map.createLayer("Objects/Bushes", tileset, 0, 0);
         
     }
     const collisionsLayer = map.createLayer("Collisions", tileset2!, 0, 0);
@@ -56,7 +55,7 @@ class MainScene extends Phaser.Scene {
     this.player.setCollideWorldBounds(true);
 
     this.physics.add.collider(this.player, collisionsLayer!);
-    const foreLayer = map.createLayer("Foreground Objects", tileset!, 0, 0);
+    map.createLayer("Foreground Objects", tileset!, 0, 0);
         
     this.anims.create({
         key: "walk-down",
