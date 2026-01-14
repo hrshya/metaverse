@@ -1,5 +1,5 @@
 import video from "../assets/Videos/HeroVideo.mp4";
-import heroSecondary from "../assets/Images/HeroSecondary2.jpg"
+import heroSecondary from "../assets/images/HeroSecondary2.jpg"
 import { cubicBezier, motion } from "motion/react";
 import { spring } from "motion";
 

@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 import Phaser from "phaser";
-import playerImg from "../assets/Images/players/player.png";
+import playerImg from "../assets/images/players/player.png";
 import tileJson from "../assets/file/pelletTown.json";
-import tileMap from "../assets/Images/map/tileset.png";
-import redCollision from "../assets/Images/map/collision.png";
+import tileMap from "../assets/images/map/tileset.png";
+import redCollision from "../assets/images/map/collision.png";
 
 class MainScene extends Phaser.Scene {
   player!: Phaser.Physics.Arcade.Sprite;

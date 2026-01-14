@@ -1,5 +1,5 @@
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import playerImage from '../../assets/Images/playerMain.png';
+import playerImage from '../../assets/images/playerMain.png';
 import { AppButton } from './AppButton';
 
 interface DialogCardProps {

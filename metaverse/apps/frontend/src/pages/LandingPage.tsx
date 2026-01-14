@@ -1,12 +1,12 @@
 import { HeroSection } from "../components/HeroSection"
 import { Navbar } from "../components/Navbar"
 import { GradientEffect } from "../components/ui/GradientEffect"
-import heroImage1 from "../assets/Images/HeroImage2.webp"
+import heroImage1 from "../assets/images/HeroImage2.webp"
 import { cubicBezier, motion } from "motion/react";
 import { ContentCard } from "../components/ContentCard";
-import image1 from "../assets/Images/image1.png"
-import image2 from "../assets/Images/image2.png"
-import image3 from "../assets/Images/image3.png"
+import image1 from "../assets/images/image1.png"
+import image2 from "../assets/images/image2.png"
+import image3 from "../assets/images/image3.png"
 import { Button } from "../components/ui/Button";
 import { ChevronRight } from "lucide-react";
 import { Footer } from "../components/Footer";
